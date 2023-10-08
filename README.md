@@ -23,7 +23,7 @@ Cache Checker Tool is a Python script that allows you to check the cache status 
 3. Run the script using the following command:
 
    ```bash
-   python cache-checker.py -f list.txt>
+   python cache-checker.py -f list.txt 
 
 ### Options
 1. -f, --file: Specify the path to the file containing URLs to check.
