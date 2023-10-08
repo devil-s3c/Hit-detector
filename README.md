@@ -26,6 +26,6 @@ Cache Checker Tool is a Python script that allows you to check the cache status 
    python cache-checker.py -f list.txt 
 
 ### Options
-1. -f, --file: Specify the path to the file containing URLs to check.
-2. -t, --threads: Number of threads to use for parallel processing (default is 80).
-3. -e, --encoding: File encoding (default is utf-8).
+* -f, --file: Specify the path to the file containing URLs to check.
+* -t, --threads: Number of threads to use for parallel processing (default is 80).
+* -e, --encoding: File encoding (default is utf-8).
