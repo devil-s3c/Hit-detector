@@ -25,7 +25,8 @@ def send_request(url):
             status = RED + "MISS" + ENDC
             print(f"{url} => {status}")  # print progress
         else:
-            status = "No cache"
+            status = "No CDN"
+            print(f"{url} => {status}")  # print progress
         return None
     except Exception as e:
         result = f"Error for {url}: {e}"
