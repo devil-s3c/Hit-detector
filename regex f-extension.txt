@@ -1,0 +1,1 @@
+grep -E "\.(html|js|css|jpg|jpeg|png|gif|ico|woff|woff2|ttf|svg|eot)$"
